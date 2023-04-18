@@ -1,9 +1,20 @@
 
 # Metodologia
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
+A metodologia contempla as ferramentas utilizadas pela equipe tanto para a manutenção dos códigos e demais artefatos quanto para a organização do time na execução das tarefas do projeto. Entre essas ferramentas que serão utilizadas, estão o GitHub, para o repositório do código fonte, o Google Drive para a organização da documentação do projeto, o MarvelApp para a produção de projetos e protótipos de interfaces e wireframes e o uso do Trello para o gerenciamento do projeto. 
 
-Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
+Relação de Ambientes de Trabalho 
+
+Os dispositivos do projeto são desenvolvidos a partir de algumas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue.  
+
+Ambiente                      | Plataforma         | Link de Acesso 
+Repositório de código fonte   | GitHub             | https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/teams/pmv-ads-2023-1-e1-proj-web-t3-g4  
+Documentos do projeto         | Microsoft Teams    | https://sgapucminasbr-my.sharepoint.com/:w:/g/personal/1465315_sga_pucminas_br/EVz-                     sKzi9khPv8ge9o20dJMBSh2OrBplSZih9pX_QxTtcw 
+Projeto de Interface e        | MarvelApp          | https://marvelapp.com/prototype/6af43e5/screen/91276406  
+Wireframes 
+Gerenciamento do Projeto      | Trello             | https://trello.com/b/BXqhd0n4/projeto-turma-4  
+
+ 
 
 ## Controle de Versão
 
