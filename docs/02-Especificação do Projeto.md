@@ -157,7 +157,7 @@ Eu como …                        | … quero/desejo …                       
 |Maria Fonseca                    | Encontrar funcionários qualificados com perfil da empresa    | Facilita o processo de contratação, pois faz uma filtragem maior.|
 |Márcio Figueiredo                | Reingressar ao mercado de trabalho                           | Muito tempo fora de atividade.|
 |Márcio Figueiredo                | Um CV atrativo, com informações certas para me candidatar    | Possuo um currículo, porém nunca tenho retorno quando me candidato|
-                                 | a vagas                                                      | |
+                                 | a vagas                                                      |                                                                  |
 |Maria Fonseca                    | Personalização de dados e armazenamento                      | Possibilitando atualizações de cv e seu armazenamento para  |                                          |                                                              | alterações futuras.|
 |Neusa Faria Soares               | Ter dicas do que escrever no CV                              | Para ser mais direta ao ponto.|
 |Pedro Amorim                     | Ter um acesso de qualquer lugar                              | Permitir o acesso de vários lugares e redução de custos.|
