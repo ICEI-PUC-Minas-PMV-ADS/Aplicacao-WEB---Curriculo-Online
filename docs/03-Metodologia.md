@@ -7,12 +7,12 @@ Relação de Ambientes de Trabalho
 
 Os dispositivos do projeto são desenvolvidos a partir de algumas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue.  
 
-Ambiente                      | Plataforma         | Link de Acesso 
-Repositório de código fonte   | GitHub             | https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/teams/pmv-ads-2023-1-e1-proj-web-t3-g4  
-Documentos do projeto         | Microsoft Teams    | https://sgapucminasbr-my.sharepoint.com/:w:/g/personal/1465315_sga_pucminas_br/EVz-                     sKzi9khPv8ge9o20dJMBSh2OrBplSZih9pX_QxTtcw 
-Projeto de Interface e        | MarvelApp          | https://marvelapp.com/prototype/6af43e5/screen/91276406  
-Wireframes 
-Gerenciamento do Projeto      | Trello             | https://trello.com/b/BXqhd0n4/projeto-turma-4  
+|Ambiente                      | Plataforma         | Link de Acesso 
+|Repositório de código fonte   | GitHub             | https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/teams/pmv-ads-2023-1-e1-proj-web-t3-g4  
+|Documentos do projeto         | Microsoft Teams    | https://sgapucminasbr-my.sharepoint.com/:w:/g/personal/1465315_sga_pucminas_br/EVz-                     |sKzi9khPv8ge9o20dJMBSh2OrBplSZih9pX_QxTtcw| 
+|Projeto de Interface e        | MarvelApp          | https://marvelapp.com/prototype/6af43e5/screen/91276406  
+|Wireframes|                    
+|Gerenciamento do Projeto      | Trello             | https://trello.com/b/BXqhd0n4/projeto-turma-4  
 
  
 
