@@ -1,44 +1,266 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
-
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+Os pontos mais relevantes foram observados no nosso dia a dia, como trabalhadores ou recrutadores, sempre nos deparamos com alguns desses problemas. 
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+* Fernanda Soares Brandão 
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+Idade: 36 
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+Ocupação: Agrónoma, trabalho em uma grande empresa de biotecnologia, faço pesquisas e análises de diversas culturas no país. 
+
+Motivações 
+
+Curiosa 
+
+Oportunidades 
+
+Amigos 
+
+Hobbies, História 
+
+Leitura 
+
+Passear na praia 
+
+* Gustavo Montreal 
+
+Idade: 38 
+
+Ocupação: Auditor, colaborador de uma multinacional de auditoria, responsável por fiscalizar empresas de médio e grande porte.  
+
+Motivações 
+
+Família 
+
+Conhecimento 
+
+Mudança de área 
+
+Hobbies, História 
+
+Jogos 
+
+Futebol 
+
+* Pedro Amorim 
+
+Idade: 32 
+
+Ocupação: Analista de recursos humanos, responsável pelo setor de RH de um hospital particular 
+
+Motivações 
+
+Música 
+
+Harmonia  
+
+Paz 
+
+Hobbies, História 
+
+Leitura 
+
+Música  
+
+Trilhas  
+
+* Maria Fonseca  
+
+Idade: 55 Anos 
+
+Ocupação: Dona de uma grande empresa Nacional de serviços gerais.  
+
+Motivações 
+
+Família  
+
+Lazer 
+
+Estabilidade  
+
+Hobbies, História 
+
+leitura 
+
+Estudo 
+
+Jogos de tabuleiro  
+
+* Neusa Faria Soares  
+
+Idade: 35 Anos 
+
+Ocupação: Auxiliar de serviços gerais  
+
+Motivações 
+
+Família  
+
+Religião 
+
+Estabilidade  
+
+ 
+
+Frustrações 
+
+Poucas oportunidades 
+
+Hobbies, História 
+
+Não possui  
+
+* Márcio Figueiredo  
+
+Idade: 48 Anos 
+
+Ocupação: Auxiliar de contabilidade  
+
+Motivações 
+
+Família  
+
+Frustrações 
+
+Dificuldade em reingressar no mercado de trabalho 
+
+Hobbies, História 
+
+Jardinagem  
+
+
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+ 
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+Eu como …                        | … quero/desejo …                                           |  … para .... 
+[PERSONA]                        | [O QUE]                                                    | [POR QUE] 
+Fernanda Soares Brandão          | Receber indicações de vagas mais alinhadas                 | Facilitaria na hora de procurar vagas em áreas,
+                                 | com o meu CV                                               |  na qual, desejo atuar 
+Gustavo Montreal                 | Colocar apenas o necessário e o que for relevante          | Um CV mais objetivo sem desvio e direto, pode ajudar na escolha
+                                 |                                                            | de um candidato para uma entrevista 
+Gustavo Montreal                 | Ter um layout mais responsivo, apresentável e moderno      | Um layout moderno e de fácil visualização e boa resposta tátil,
+                                 |                                                            | seria um diferencial para que ao menos as pessoas experimentassem o 
+                                 |                                                            | site/app 
+Fernanda Soares Brandão          | Poder receber feedbacks sobre melhorias no CV              | Ajudaria na formação de ideias para melhorias em meu CV 
+Gustavo Montreal                 | Acessibilidade e um layout de fácil uso/entendimento       | Pessoas idosas ou com necessidades especiais poderiam fazer, enviar                                  |                                                            | e procurar o seu CV de forma simples, prática e rápida com a                                          |                                                            | inserção de recursos voltados para esse público   
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+   
+
+Fernanda Soares Brandão 
+
+Personalização e arquivamento de dados 
+
+Personalizar e guardar seus dados em um único lugar, seria muito cômodo e ágil na hora de criar ou mudar coisas no CV 
+
+Gustavo Montreal 
+
+Atualização e portabilidade em diversos dispositivos móveis 
+
+Facilidade de acesso, pois, poderia entrar no site/app em qualquer lugar desde que tenha internet e claro atualização para melhorias de segurança nunca é demais. 
+
+Fernanda Soares Brandão 
+
+Um app que possa otimizar o meu tempo 
+
+Nos dias atuais tempo é tudo, se o app não oferece algum tipo de agilidade ou melhoria, será descartado 
+
+Pedro Amorim 
+
+Quero uma plataforma única e facilitada para coleta organização de cv  
+
+Por conta da alta demanda do setor, e dificuldade de armazenamento dos dados. 
+
+Pedro Amorim 
+
+Fazer modelos de cv mais práticos, objetivos e completos 
+
+Proporcionar um conforto maior no preenchimento das informações do cv 
+
+Pedro Amorim 
+
+Um programa para nos proporcionar opções de modelos de currículos e preenchimento prático 
+
+Ter layouts de cv parra uma possível escolha, para a facilitação do preenchimento  
+
+Maria Fonseca  
+
+Encontrar funcionários qualificados para o perfil da empresa 
+
+Facilita o processo de contratação, pois faz uma filtragem maior   
+
+Márcio Figueiredo 
+
+Reingressar ao mercado de trabalho 
+
+Muito tempo fora de atividade 
+
+Márcio Figueiredo 
+
+Um CV atrativo, com informações certas para me candidatar a vagas 
+
+Possuo um currículo, porém nunca tenho retorno quando me candidato 
+
+Maria Fonseca  
+
+Personalização de dados e armazenamento 
+
+Possibilitando atualizações de cv e seu armazenamento para alterações futuras 
+
+Neusa Faria Soares 
+
+Ter dicas do que escrever no CV 
+
+Para ser mais direta ao ponto 
+
+Pedro Amorim 
+
+Ter um acesso de qualquer lugar  
+
+Permitir o acesso de vários lugares e redução de custos 
+
+Neusa Faria Soares 
+
+Montar um CV para candidatar a vagas relacionadas ao meu serviço 
+
+Que seja fácil por ter pouca prática com computador 
+
+Maria Fonseca  
+
+Organização de CV 
+
+Apresentação de currículos, com maior, número de informações e organização  
+
 
 ## Requisitos
 
