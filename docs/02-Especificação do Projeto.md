@@ -138,6 +138,7 @@ Jardinagem
 
 Eu como …                        | … quero/desejo …                                           |  … para .... 
 [PERSONA]                        | [O QUE]                                                    | [POR QUE] 
+|--------------------------------|------------------------------------------------------------|---------------------------------------------------------------------|
 Fernanda Soares Brandão          | Receber indicações de vagas mais alinhadas                 | Facilitaria na hora de procurar vagas em áreas,
                                  | com o meu CV                                               |  na qual, desejo atuar 
 Gustavo Montreal                 | Colocar apenas o necessário e o que for relevante          | Um CV mais objetivo sem desvio e direto, pode ajudar na escolha
