@@ -1,23 +1,27 @@
-# TÍTULO DO PROJETO
+# Currículo Online
 
-`CURSO`
+`Análise e Desenvolvimento de Sistemas`
 
-`DISCIPLINA`
+`Projeto Front-End`
 
-`SEMESTRE`
+`1o. Semestre`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+`Desenvolvimento de aplicação Web para criação de currículos profissionais.`
 
 ## Integrantes
 
-* Leonardo Júnio de Paula
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Bernardo Morais
+* Caio Augusto De Carvalho Rosa
+* Israel Cunha Da Silva
+* Leonardo Júnio De Paula
+* Mario Jose Copertino Filho
+* Sara Cristina Gilberto Pereira
+* Thais De Lima Figueiredo
+
 
 ## Orientador
 
-* Nome completo do professor 1
+* Nathalia Assis
 
 ## Instruções de utilização
 
