@@ -146,120 +146,24 @@ Gustavo Montreal                 | Ter um layout mais responsivo, apresentável 
                                  |                                                            | seria um diferencial para que ao menos as pessoas experimentassem o 
                                  |                                                            | site/app 
 Fernanda Soares Brandão          | Poder receber feedbacks sobre melhorias no CV              | Ajudaria na formação de ideias para melhorias em meu CV 
-Gustavo Montreal                 | Acessibilidade e um layout de fácil uso/entendimento       | Pessoas idosas ou com necessidades especiais poderiam fazer, enviar                                  |                                                            | e procurar o seu CV de forma simples, prática e rápida com a                                          |                                                            | inserção de recursos voltados para esse público   
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
- 
-
-
-
-
-
-
- 
-
-
-
-   
-
-Fernanda Soares Brandão 
-
-Personalização e arquivamento de dados 
-
-Personalizar e guardar seus dados em um único lugar, seria muito cômodo e ágil na hora de criar ou mudar coisas no CV 
-
-Gustavo Montreal 
-
-Atualização e portabilidade em diversos dispositivos móveis 
-
-Facilidade de acesso, pois, poderia entrar no site/app em qualquer lugar desde que tenha internet e claro atualização para melhorias de segurança nunca é demais. 
-
-Fernanda Soares Brandão 
-
-Um app que possa otimizar o meu tempo 
-
-Nos dias atuais tempo é tudo, se o app não oferece algum tipo de agilidade ou melhoria, será descartado 
-
-Pedro Amorim 
-
-Quero uma plataforma única e facilitada para coleta organização de cv  
-
-Por conta da alta demanda do setor, e dificuldade de armazenamento dos dados. 
-
-Pedro Amorim 
-
-Fazer modelos de cv mais práticos, objetivos e completos 
-
-Proporcionar um conforto maior no preenchimento das informações do cv 
-
-Pedro Amorim 
-
-Um programa para nos proporcionar opções de modelos de currículos e preenchimento prático 
-
-Ter layouts de cv parra uma possível escolha, para a facilitação do preenchimento  
-
-Maria Fonseca  
-
-Encontrar funcionários qualificados para o perfil da empresa 
-
-Facilita o processo de contratação, pois faz uma filtragem maior   
-
-Márcio Figueiredo 
-
-Reingressar ao mercado de trabalho 
-
-Muito tempo fora de atividade 
-
-Márcio Figueiredo 
-
-Um CV atrativo, com informações certas para me candidatar a vagas 
-
-Possuo um currículo, porém nunca tenho retorno quando me candidato 
-
-Maria Fonseca  
-
-Personalização de dados e armazenamento 
-
-Possibilitando atualizações de cv e seu armazenamento para alterações futuras 
-
-Neusa Faria Soares 
-
-Ter dicas do que escrever no CV 
-
-Para ser mais direta ao ponto 
-
-Pedro Amorim 
-
-Ter um acesso de qualquer lugar  
-
-Permitir o acesso de vários lugares e redução de custos 
-
-Neusa Faria Soares 
-
-Montar um CV para candidatar a vagas relacionadas ao meu serviço 
-
-Que seja fácil por ter pouca prática com computador 
-
-Maria Fonseca  
-
-Organização de CV 
-
-Apresentação de currículos, com maior, número de informações e organização  
+Gustavo Montreal                 | Acessibilidade e um layout de fácil uso/entendimento       | Pessoas idosas ou com necessidades especiais poderiam fazer, enviar                                  |                                                            | e procurar o seu CV de forma simples, prática e rápida com a                                          |                                                            | inserção de recursos voltados para esse público. 
+Fernanda Soares Brandão          | Personalização e arquivamento de dados                     | Personalizar e guardar seus dados em um único lugar, seria muito
+                                 |                                                            | cômodo e ágil na hora de criar ou mudar coisas no CV.
+Gustavo Montreal                 | Atualização e portabilidade em diversos dispositivos móveis| Facilidade de acesso, pois, poderia entrar no site/app em qualquer                                    |                                                            | lugar desde que tenha internet e claro atualização para melhorias de                                  |                                                            | segurança nunca é demais.
+Fernanda Soares Brandão          | Um app que possa otimizar o meu tempo                      | Nos dias atuais tempo é tudo, se o app não oferece algum tipo de                                      |                                                            | agilidade ou melhoria, será descartado.
+Pedro Amorim                     | Quero uma plataforma única e facilitada para coleta        | Por conta da alta demanda do setor, e dificuldade de armazenamento                                    | organização de cv                                          | dos dados.
+Pedro Amorim                     | Fazer modelos de cv mais práticos, objetivos e completos   | Proporcionar um conforto maior no preenchimento das informações
+Pedro Amorim                     | Um programa para nos proporcionar opções de modelos de     | Ter layouts de cv parra uma possível escolha, para a facilitação do                                  | currículos e preenchimento prático                         | preenchimento.
+Maria Fonseca                    | Encontrar funcionários qualificados com perfil da empresa  | Facilita o processo de contratação, pois faz uma filtragem maior.
+Márcio Figueiredo                | Reingressar ao mercado de trabalho                         | Muito tempo fora de atividade.
+Márcio Figueiredo                | Um CV atrativo, com informações certas para me candidatar  | Possuo um currículo, porém nunca tenho retorno quando me candidato
+                                 | a vagas                                                    |
+Maria Fonseca                    | Personalização de dados e armazenamento                    | Possibilitando atualizações de cv e seu armazenamento para                                            |                                                            | alterações futuras.
+Neusa Faria Soares               | Ter dicas do que escrever no CV                            | Para ser mais direta ao ponto.
+Pedro Amorim                     | Ter um acesso de qualquer lugar                            | Permitir o acesso de vários lugares e redução de custos.
+Neusa Faria Soares               | Montar um CV para candidatar a vagas relacionadas ao meu   | Que seja fácil por ter pouca prática com computador  
+                                 |                                                            | serviço.
+Maria Fonseca                    | Organização de CV                                          | Apresentação de currículos, com maior, número de informações e                                        |                                                            | organização.  
 
 
 ## Requisitos
@@ -269,32 +173,36 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 ### Requisitos Funcionais
 
 |ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
-
+|------|------------------------------------------------------------------------------------|----|
+|RF-001| A aplicação deverá permitir o download do “CV em diferentes formatos, pdf, txt...” | ALTA | 
+|RF-002| A aplicação deve ser capaz de salvar meus dados.                                   | MÉDIA |
+|RF-003| A aplicação deve possuir um tópico de dicas de como montar um CV.                  | BAIXA | 
+|RF-004| A aplicação deve ter recurso de acessibilidade.                                    | ALTA |
+|RF-005| O sistema deverá aceitar a inserção de imagens.                                    | ALTA |
+|RF-006| A aplicação deve possuir layouts predefinidos e a opção de personalização.         | ALTA | 
+|RF-007| A aplicação deve ter páginas de fácil navegação, para facilitar correções,         | MÉDIA |
+|      | caso seja necessário                                                               |      |
+|RF-008| A aplicação deve ter a opção de envio do CV diretamente ao e-mail                  | ALTA |
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+|-------|-------------------------------------------------------------------|----|
+|RNF-001| A aplicação deve responder aos comandos em menos de 1 segundo.  | ALTA | 
+|RNF-002| A aplicação deve comportar uma total de 100 usuários simultâneos| BAIXA |
+|       | sem sofrer com instabilidades, a partir da 100ª requisição, o   |       |
+|       | sistema deverá ignorá-las para não sofrer com degradações.      |       |
+|RNF-003| A aplicação deve ser capaz de funcionar usando no máximo 25% do | ALTA | 
+|       | processador.                                                    |      |
+|RNF-004| A aplicação deve se recuperar de falhas em 1 segundo e ser      | BAIXA |
+|       | passível de atualizações e correções em 2 ou 3 semanas.         |       |
+|RNF-005| A aplicação deverá ser capaz de concluir a tarefa em no máximo  | ALTA | 
+|       | 1 minuto.                                                       |      |
+|RNF-006| A aplicação deve ser leve e otimizada para máquinas mais simples| ALTA |
+|RNF-007| A aplicação deve ter um layout simples, moderno e de fácil      | ALTA |
+|RNF-008| A aplicação deverá ser ágil, versátil e sem travamentos.        | ALTA |
+|RNF-009| A aplicação deve ser responsiva, para celular e tablet          | MÉDIA |
+ 
 
 ## Restrições
 
@@ -302,12 +210,8 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|RE-01 | Inicialmente a aplicação não terá banco de dados  |
+|RE-02 | A aplicação deve ser implementada em HTML, CSS e JavaScript.  |
+|RE-03 | A aplicação deve ser executável em diversas plataformas como Windows, Unix, Android e IOS.   |
+|RE-04 | A aplicação deverá se integrar com sistemas legado.   |
 
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
