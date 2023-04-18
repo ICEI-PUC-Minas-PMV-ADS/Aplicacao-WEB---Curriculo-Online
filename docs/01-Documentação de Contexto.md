@@ -1,41 +1,37 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+Com o aumento da competitividade no mercado de trabalho, é preciso encontrar meios de se sobressair e assim poder competir para melhores oportunidades, de acordo com sites especializados em oferta de vagas e Recursos Humanos, como Linkedin.com, RHPortal.com.br, Vagas.com.br, Jobseeker.com, Catho.com.br, Portalpos.com.br, entre outros, uma das formas de se destacar é o currículo profissional.  
+
+Conforme podemos encontrar em uma rápida pesquisa no Google.com, a grande maioria desses sites especializados aponta os erros ao elaborar um currículo profissional, um dos principais problemas é a falta de conhecimento na hora de montar o currículo pessoal. Entre os erros mais comuns estão “informações desnecessárias, falta de dados pessoais, descrever o objetivo de forma errada...” (Catho.com.br) ou mesmo colocando o conteúdo certo, porém em uma formatação que dificulta a leitura ou que acabe desmotivando o contratante por não ter uma aparência boa e com fácil acesso as informações do candidato, como descrito no site da Folhadirigida.com.br. 
+
+Pensando nisso, é de grande importância existir um local onde qualquer pessoa consiga criar um currículo apresentável e com conteúdo relevante sem custos e acessível a todos. 
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
-
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+Trabalhadores que estão em busca de um emprego ou mesmo reingressar no mercado de trabalho encontram dificuldades em criar um currículo profissional bem elaborado, contendo ao mesmo tempo as informações necessárias e com layout atraente e funcional para o recrutador. 
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+Este projeto tentar resolver a necessidades de vários trabalhadores que estão ingressando/reingressando ao mercado de trabalho ou procurando trocar de empresa. O projeto visa ajudar essas pessoas a criarem um CV de forma fácil, intuitiva e acessível.  
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+O objetivo desse projeto é criar uma aplicação WEB que possua as ferramentas necessárias para pessoas com ou sem experiência em computação, possam criar seu CV, baixar, imprimir ou mesmo enviar por e-mail. 
+
+Objetivos específicos: 
+
+Criação de CV para impressão ou download do arquivo; 
+
+Orientação quanto aos pontos importantes para se ter em um CV; 
+
+Criação de um CV com layout clean, mas com o conteúdo importante para se candidatar a vagas de emprego. 
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+O currículo é o primeiro contato da empresa/recrutador com o candidato, e segundo a exame.com, “se há problemas com esse documento básico, até mesmo um bom profissional pode ser desqualificado para uma entrevista.” 
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Os maiores erros apontados pelos especialistas são: falta ou excesso de dados pessoais, tamanho, formatação muito criativa, entre outros. 
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+Pessoas que se enquadram no perfil, mulheres e homens entre 18 e 65 anos ou mais, que buscam emprego ou mudança de empresa, e que precisam remodelar ou fazer seu CV. 
 
 Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
 
