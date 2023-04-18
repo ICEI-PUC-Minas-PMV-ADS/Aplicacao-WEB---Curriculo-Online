@@ -137,8 +137,8 @@ Jardinagem
  
 
 Eu como …                        | … quero/desejo …                                           |  … para .... 
-[PERSONA]                        | [O QUE]                                                    | [POR QUE] 
 |--------------------------------|------------------------------------------------------------|---------------------------------------------------------------------|
+[PERSONA]                        | [O QUE]                                                    | [POR QUE] 
 Fernanda Soares Brandão          | Receber indicações de vagas mais alinhadas                 | Facilitaria na hora de procurar vagas em áreas,
                                  | com o meu CV                                               |  na qual, desejo atuar 
 Gustavo Montreal                 | Colocar apenas o necessário e o que for relevante          | Um CV mais objetivo sem desvio e direto, pode ajudar na escolha
@@ -147,24 +147,24 @@ Gustavo Montreal                 | Ter um layout mais responsivo, apresentável 
                                  |                                                            | seria um diferencial para que ao menos as pessoas experimentassem o 
                                  |                                                            | site/app 
 Fernanda Soares Brandão          | Poder receber feedbacks sobre melhorias no CV              | Ajudaria na formação de ideias para melhorias em meu CV 
-Gustavo Montreal                 | Acessibilidade e um layout de fácil uso/entendimento       | Pessoas idosas ou com necessidades especiais poderiam fazer, enviar                                  |                                                            | e procurar o seu CV de forma simples, prática e rápida com a                                          |                                                            | inserção de recursos voltados para esse público. 
+Gustavo Montreal                 | Acessibilidade e um layout de fácil uso/entendimento       | Pessoas idosas ou com necessidades especiais poderiam fazer, enviar                                      |                                                            | e procurar o seu CV de forma simples, prática e rápida com a                                            |                                                            | inserção de recursos voltados para esse público. 
 Fernanda Soares Brandão          | Personalização e arquivamento de dados                     | Personalizar e guardar seus dados em um único lugar, seria muito
                                  |                                                            | cômodo e ágil na hora de criar ou mudar coisas no CV.
-Gustavo Montreal                 | Atualização e portabilidade em diversos dispositivos móveis| Facilidade de acesso, pois, poderia entrar no site/app em qualquer                                    |                                                            | lugar desde que tenha internet e claro atualização para melhorias de                                  |                                                            | segurança nunca é demais.
-Fernanda Soares Brandão          | Um app que possa otimizar o meu tempo                      | Nos dias atuais tempo é tudo, se o app não oferece algum tipo de                                      |                                                            | agilidade ou melhoria, será descartado.
-Pedro Amorim                     | Quero uma plataforma única e facilitada para coleta        | Por conta da alta demanda do setor, e dificuldade de armazenamento                                    | organização de cv                                          | dos dados.
+Gustavo Montreal                 | Atualização e portabilidade em diversos dispositivos móveis| Facilidade de acesso, pois, poderia entrar no site/app em qualquer                                      |                                                            | lugar desde que tenha internet e claro atualização para melhorias de                                    |                                                            | segurança nunca é demais.
+Fernanda Soares Brandão          | Um app que possa otimizar o meu tempo                      | Nos dias atuais tempo é tudo, se o app não oferece algum tipo de                                        |                                                            | agilidade ou melhoria, será descartado.
+Pedro Amorim                     | Quero uma plataforma única e facilitada para coleta        | Por conta da alta demanda do setor, e dificuldade de armazenamento                                      | organização de cv                                          | dos dados.
 Pedro Amorim                     | Fazer modelos de cv mais práticos, objetivos e completos   | Proporcionar um conforto maior no preenchimento das informações
-Pedro Amorim                     | Um programa para nos proporcionar opções de modelos de     | Ter layouts de cv parra uma possível escolha, para a facilitação do                                  | currículos e preenchimento prático                         | preenchimento.
+Pedro Amorim                     | Um programa para nos proporcionar opções de modelos de     | Ter layouts de cv parra uma possível escolha, para a facilitação do                                      | currículos e preenchimento prático                         | preenchimento.
 Maria Fonseca                    | Encontrar funcionários qualificados com perfil da empresa  | Facilita o processo de contratação, pois faz uma filtragem maior.
 Márcio Figueiredo                | Reingressar ao mercado de trabalho                         | Muito tempo fora de atividade.
 Márcio Figueiredo                | Um CV atrativo, com informações certas para me candidatar  | Possuo um currículo, porém nunca tenho retorno quando me candidato
                                  | a vagas                                                    |
-Maria Fonseca                    | Personalização de dados e armazenamento                    | Possibilitando atualizações de cv e seu armazenamento para                                            |                                                            | alterações futuras.
+Maria Fonseca                    | Personalização de dados e armazenamento                    | Possibilitando atualizações de cv e seu armazenamento para                                              |                                                            | alterações futuras.
 Neusa Faria Soares               | Ter dicas do que escrever no CV                            | Para ser mais direta ao ponto.
 Pedro Amorim                     | Ter um acesso de qualquer lugar                            | Permitir o acesso de vários lugares e redução de custos.
 Neusa Faria Soares               | Montar um CV para candidatar a vagas relacionadas ao meu   | Que seja fácil por ter pouca prática com computador  
                                  |                                                            | serviço.
-Maria Fonseca                    | Organização de CV                                          | Apresentação de currículos, com maior, número de informações e                                        |                                                            | organização.  
+Maria Fonseca                    | Organização de CV                                          | Apresentação de currículos, com maior, número de informações e                                          |                                                            | organização.  
 
 
 ## Requisitos
