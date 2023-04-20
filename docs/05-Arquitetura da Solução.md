@@ -13,7 +13,7 @@ Exemplo:
 Os componentes que fazem parte da solução são apresentados na Figura XX.
 
 ![Diagrama de Componentes](img/componentes.png)
-<center>Figura xx - Arquitetura da Solução</center>
+<center>Figura 11 - Arquitetura da Solução</center>
 
 A solução implementada conta com os seguintes módulos:
 - **Navegador** - Interface básica do sistema  
@@ -33,6 +33,7 @@ Caso ele opte por construir um currículo profissional ele deve seguir para a p�
 O usuário poderá optar por navegar pelo site e conferir as páginas que ensinam como o site funciona, dicas de como montar seu currículo e/ou para conhecer mais sobre o projeto.
 
 ![Passo a passo](img/passoapasso.png)
+<center> Figura 12 - Passo a Passo</center>
 
 
 ## Tecnologias Utilizadas
