@@ -50,30 +50,62 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 
 ### Divisão de Papéis
 
-Apresente a divisão de papéis entre os membros do grupo.
+A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento. 
 
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu 
-> Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
+A equipe está organizada da seguinte maneira: 
+
+Scrum Master:  
+
+     - Sara Cristina  
+
+Product Owner:  
+
+     - Israel Cunha 
+
+Equipe de Desenvolvimento: 
+
+     - Thais Figueiredo 
+
+     - Leonardo Júnio 
+
+     - Bernardo Morais  
+
+     - Sara Cristina  
+
+     - Israel Cunha 
+
+     - Caio Augusto 
+
+     - Mario Jose  
+
+Equipe de Design: 
+
+     - Caio Augusto 
+
+     - Mario Jose  
 
 ### Processo
 
-Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
- 
-> **Links Úteis**:
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+Para organização e distribuição das tarefas do projeto, a equipe está utilizando o app Trello estruturado com as seguintes listas:  
+
+![trello](img/Trello.png)
+
+<center>Figura 1 - O quadro Kanban (Figura 1) do grupo desenvolvido na ferramenta de gerenciamento de projetos está disponível através da URL https://trello.com/b/BXqhd0n4/projeto-turma-4 e é apresentado, no estado atual.<center>
+
+- A fazer: recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista. 
+
+- Em Andamento: Esta lista representa o Sprint Backlog. Este é o Sprint atual que estamos trabalhando. 
+
+- Concluído: nesta lista são colocadas as tarefas finalizadas e passarão pelos testes e controle de qualidade. 
+
 
 ### Ferramentas
 
 As ferramentas empregadas no projeto são:
 
-- Editor de código.
-- Ferramentas de comunicação
-- Ferramentas de desenho de tela (_wireframing_)
+- Editor de código - VS CODE, GitHub
+- Ferramentas de comunicação - Trello, GitHub
+- Ferramentas de desenho de tela - Marvel App
 
 O editor de código foi escolhido porque ele possui uma integração com o
 sistema de versão. As ferramentas de comunicação utilizadas possuem
@@ -84,5 +116,5 @@ necessidades da nossa solução.
 Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
  
 > **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
-> - [Slack](https://slack.com/)
 > - [Github](https://github.com/)
+> - [trello](https://trello.com/)
