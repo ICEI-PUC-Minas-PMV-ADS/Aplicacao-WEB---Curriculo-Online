@@ -20,39 +20,46 @@ Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapea
 
 ![HomePage](img/homepage.jpg)
 
-*Home Page
+<center>Figura 3 – Estrutura padrão do site </center>
+
 
 
 ![Pag2](img/pag2.jpg)
 
-*Página 2
+<center>Figura 4 - Tela informativa sobre o site  </center>
+
 
 
 ![Pag3](img/pag3.jpg)
 
-*Página 3
+<center>Figura 5 - Tela de dicas para criação de currículo   </center>
+
 
 
 ![Pag4](img/pag4.jpg)
 
-*Página 4
+<center>Figura 6 - Templates   </center>
+
 
 
 ![Pag5](img/pag5.jpg)
 
-*Página 5
+<center>Figura 7 – Tela de criação de currículos </center>
+
 
 
 ![Pag6](img/pag6.jpg)
 
-*Página 6
+<center>Figura 8 - Tela de revisão de currículo  </center<
 
 
+ 
 ![Pag7](img/pag7.jpg)
 
-*Página 7
+ <center>Figura 9 - Tela de pronto  </center>
 
 
+ 
 ![Pag8](img/pag8.jpg)
 
-*Página 8
+ <center>Figura 10 - Tela de informações do projeto  </center>
