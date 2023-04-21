@@ -34,7 +34,7 @@ O usuário poderá optar por navegar pelo site e conferir as páginas que ensina
 <center> Figura 12 - Passo a Passo</center>
 
 
-## Tecnologias Utilizadas
+## Tecnologias Utilizadas 
 
 As tecnologias que serão utilizadas serão as liguagens HTML, CSS e JavaScript, com o intuito de criar uma página dinâmica e de fácil acesso a todos.
 
