@@ -6,7 +6,7 @@ Definição de como o software é estruturado em termos dos componentes que faze
 
 ## Diagrama de componentes
 
-Diagrama que permite a modelagem física de um sistema, através da visão dos seus componentes e relacionamentos entre os mesmos.
+Diagrama que permite a modelagem "física" de um sistema, através da visão dos seus componentes e relacionamentos entre os mesmos.
 
 Exemplo: 
 
@@ -22,7 +22,7 @@ A solução implementada conta com os seguintes módulos:
 
 
 
-A imagem a seguir ilustra a o fluxo do usuário em nossa solução. Assim
+A imagem a seguir ilustra o fluxo do usuário em nossa solução. Assim
 que o usuário entra na plataforma, ele é apresentado à home page
 (Tela 1) onde é apresentando o site.
 
@@ -36,7 +36,7 @@ O usuário poderá optar por navegar pelo site e conferir as páginas que ensina
 
 ## Tecnologias Utilizadas
 
-As técnologia que serão utilizadas serão as liguagens HTML, CSS e JavaScript, com o intuito de criar uma página dinâmica e de fácil acesso a todos.
+As tecnologias que serão utilizadas serão as liguagens HTML, CSS e JavaScript, com o intuito de criar uma página dinâmica e de fácil acesso a todos.
 
 
 ## Hospedagem
