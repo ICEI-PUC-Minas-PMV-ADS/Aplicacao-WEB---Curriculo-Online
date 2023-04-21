@@ -10,7 +10,7 @@ Diagrama que permite a modelagem física de um sistema, através da visão dos s
 
 Exemplo: 
 
-Os componentes que fazem parte da solução são apresentados na Figura XX.
+Os componentes que fazem parte da solução são apresentados na Figura 11.
 
 ![Diagrama de Componentes](img/componentes.png)
 <center>Figura 11 - Arquitetura da Solução</center>
@@ -21,8 +21,6 @@ A solução implementada conta com os seguintes módulos:
     - **Hospedagem** - local na Internet onde as páginas são mantidas e acessadas pelo navegador. 
 
 
-
-Inclua um diagrama da solução e descreva os módulos e as tecnologias que fazem parte da solução. Discorra sobre o diagrama.
 
 A imagem a seguir ilustra a o fluxo do usuário em nossa solução. Assim
 que o usuário entra na plataforma, ele é apresentado à home page
