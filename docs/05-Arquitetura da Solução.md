@@ -43,11 +43,5 @@ As técnologia que serão utilizadas serão as liguagens HTML, CSS e JavaScript,
 
 ## Hospedagem
 
-Explique como a hospedagem e o lançamento da plataforma foi feita.
+A hospedagem será feita no GitHub Pages, com link direto do GitHub.
 
-> **Links Úteis**:
->
-> - [Website com GitHub Pages](https://pages.github.com/)
-> - [Programação colaborativa com Repl.it](https://repl.it/)
-> - [Getting Started with Heroku](https://devcenter.heroku.com/start)
-> - [Publicando Seu Site No Heroku](http://pythonclub.com.br/publicando-seu-hello-world-no-heroku.html)
