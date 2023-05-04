@@ -227,32 +227,40 @@ section{
     display: flex;
     position: absolute;
     left: 32%;
-    top: 20%;
     align-items: center;
-    justify-content: center;
+    padding-top: 7%;
     text-align: center; 
     color: var(--color-black);
     span{
         display: none;
-    }
+    }   
     .active-btn{
         background-color: var(--color-bluemarina) !important;
-        transition: all .4s ease-in-out;   
+        transition: all .4s ease-in-out;
+        border-radius: 50%;
+        span{
+            display: flex;
+            font-family: inherit;
+            font-size: 1rem;
+            font-weight: bold;
+        }
+        i{
+            display: none;
+        }
     }
     .control{
         padding: .5rem;
         cursor: pointer;
         background-color: var(--color-primary);
         border-color: var(--color-primary);
-        border-radius: 3%;
+        border-radius: 10%;
         display: flex;
         margin: .8rem;
         justify-content: center;
         align-items: center;
         box-shadow: 0 3px 15px rgba(0,0,0,.3);
-        border-radius: 10px;
         i{
-          font-size: 1.2rem;
+          font-size: 1rem;
           color: var(--color-black);
           pointer-events: none;
           margin: .5rem;
@@ -261,12 +269,6 @@ section{
         display: block;
         background-color: #65D6D4;
         transition: all .5s ease-in-out;
-        span{
-            display: flex;
-            justify-content: center;
-            text-align: center;
-            font-style: bold;
-        }
         i{
             transform:translatey(-50%);
             transition: all .5s ease-in;
