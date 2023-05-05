@@ -103,10 +103,12 @@ section {
 }
 
 .sec6 {
+  text-align: justify;
   display: none;
   min-height: 100vh;
   transform: translateY(0) scale(1);
 }
+
 
 .active {
   display: block;
@@ -216,7 +218,7 @@ section {
   left: 32%;
   align-items: center;
   padding-top: 7%;
-  text-align: center;
+  text-align: justify;
   color: var(--color-black);
 }
 .controls span {

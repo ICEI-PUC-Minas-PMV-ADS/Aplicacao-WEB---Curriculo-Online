@@ -1,7 +1,12 @@
 const templates = document.querySelector('.template');
+const secTemplate = document.querySelectorAll('.templates-container');
 
-function templateSelection() {
-    //Template selection
-    
-}
+templates.addEventListener('click', (e) => {
+    const id = e.target.data_img.id;
+    if (id) {
+        //remove selected from others
+        secTemplate.forEach(())
+    }
+
+})
 
