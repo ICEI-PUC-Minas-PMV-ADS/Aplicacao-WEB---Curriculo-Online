@@ -191,11 +191,17 @@ section{
 .templates-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    grid-gap: 10px;
+    padding: 10px;
+    .template{
+        display: flex;
             img{
-                padding: 1rem;
-                width: 100%;
-                height: auto;
+                padding: .5rem;
+                width: 300px;
+                height: 400px;
             }
+        }
 }
 
 

@@ -103,12 +103,10 @@ section {
 }
 
 .sec6 {
-  text-align: justify;
   display: none;
   min-height: 100vh;
   transform: translateY(0) scale(1);
 }
-
 
 .active {
   display: block;
@@ -190,11 +188,17 @@ section {
 .templates-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  grid-gap: 10px;
+  padding: 10px;
 }
-.templates-container img {
-  padding: 1rem;
-  width: 100%;
-  height: auto;
+.templates-container .template {
+  display: flex;
+}
+.templates-container .template img {
+  padding: 0.5rem;
+  width: 300px;
+  height: 400px;
 }
 
 /*Criar*/
@@ -218,7 +222,7 @@ section {
   left: 32%;
   align-items: center;
   padding-top: 7%;
-  text-align: justify;
+  text-align: center;
   color: var(--color-black);
 }
 .controls span {

@@ -1,12 +1,18 @@
-const templates = document.querySelector('.template');
-const secTemplate = document.querySelectorAll('.templates-container');
+const secTemplates = document.querySelector('.templates-container');
+const selectTemplates = document.querySelectorAll('.template');
 
-templates.addEventListener('click', (e) => {
-    const id = e.target.data_img.id;
-    if (id) {
-        //remove selected from others
-        secTemplate.forEach(())
-    }
+const templates = document.querySelector('.templates');
 
-})
+
+templates.addEventListener('click', (event) => {
+  const id = event.target.dataset.imgId;
+  if (data-id) {
+    // remove 'selected' class from other templates
+    secTemplates.querySelectorAll('.template').forEach((template) => {
+      template.classList.remove('selected');
+    });
+    // add 'selected' class to the clicked template
+    event.target.closest('.template').classList.add('selected');
+  }
+});
 
