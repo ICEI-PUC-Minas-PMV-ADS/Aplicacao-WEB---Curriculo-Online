@@ -55,3 +55,5 @@ var options = {
 $('#id_select2_example').select2(options);
 
 custom_template();
+
+
