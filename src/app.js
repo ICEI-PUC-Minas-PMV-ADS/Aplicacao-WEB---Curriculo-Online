@@ -36,6 +36,9 @@ function PageTransitions(){
 
 PageTransitions();
 
+
+const templates = document.querySelectorAll('.template');
+
 function custom_template(obj){
   var data = $(obj.element).data();
   var text = $(obj.element).text();
@@ -50,3 +53,5 @@ var options = {
 'templateResult': custom_template,
 }
 $('#id_select2_example').select2(options);
+
+custom_template();
