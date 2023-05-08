@@ -10,6 +10,7 @@
   --color-secondary: white;
   --color-black: black;
   --color-bluemarina:#65D6D4;
+  --color-lightprimary: #82d6ae;
 }
 
 body {
@@ -212,7 +213,8 @@ section {
 .templates-container .templates-items .hover-items {
   width: 90%;
   height: 100%;
-  background-color: var(--color-primary);
+  background-color: var(--color-lightprimary);
+  opacity: 0.5;
   position: absolute;
   left: 0;
   top: 0;
@@ -244,15 +246,15 @@ section {
 }
 .templates-container .templates-items .hover-items .icons i {
   font-size: 1.5rem;
-  color: var(--color-dark);
+  color: black;
   margin: 1.5rem;
 }
 .templates-container .templates-items .hover-items .icons:hover {
   background-color: var(--color-bluemarina);
-  opacity: 90%;
+  opacity: 1;
 }
 .templates-container .templates-items .hover-items .icons:hover i {
-  color: var(--color-grey3);
+  color: black;
 }
 
 .templates-items:hover .hover-items {
@@ -269,9 +271,13 @@ section {
   padding: 5% 1%;
 }
 .criar-container input {
+  padding-left: 0.5rem;
   margin: 2px;
   border-radius: 5px;
   background-color: white;
+}
+.criar-container textarea {
+  padding-left: 0.5rem;
 }
 
 /* Projeto*/

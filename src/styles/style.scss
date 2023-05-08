@@ -11,6 +11,7 @@
     --color-secondary: white;
     --color-black:  black;
     --color-bluemarina:#65D6D4;
+    --color-lightprimary: #82d6ae;
 }
 
 body{
@@ -213,7 +214,8 @@ section{
             .hover-items{
                 width: 90%;
                 height: 100%;
-                background-color: var(--color-primary);
+                background-color: var(--color-lightprimary);
+                opacity: 0.5;
                 position: absolute;
                 left: 0;
                 top: 0;
@@ -247,15 +249,15 @@ section{
                         i{
                             
                             font-size: 1.5rem;
-                            color: var(--color-dark);
+                            color: black;
                             margin: 1.5rem;
                          }
 
                     &:hover{
                         background-color: var(--color-bluemarina);
-                        opacity: 90%;
+                        opacity: 1.0;
                         i{
-                            color:var(--color-grey3);
+                            color: black;
                         }
                     
                         
@@ -283,11 +285,14 @@ section{
     padding: 5% 1%;
 
     input{
+        padding-left: .5rem;
         margin: 2px;
         border-radius: 5px;
         background-color: white;
     }
-
+textarea {
+    padding-left: .5rem;
+}
 }
 
 
