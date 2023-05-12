@@ -1,7 +1,9 @@
-const secTemplates = document.querySelector('.templates-container');
+const secTemplates = document.querySelectorAll('.templates-container');
 const selectTemplates = document.querySelectorAll('.template');
+const templates = document.querySelectorAll('.templates');
+const allSecs = document.querySelector(".main-content");
 
-const templates = document.querySelector('.templates');
+function chooseTemplates() {
 
 function templateSelection() {
   for (let i = 0; i <selectTemplates.length; i++) {
@@ -24,4 +26,4 @@ templates.addEventListener('click', (event) => {
     event.target.closest('.template').classList.add('selected');
   }
 });
-
+}

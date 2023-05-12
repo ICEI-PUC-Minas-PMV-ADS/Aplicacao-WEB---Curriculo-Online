@@ -19,7 +19,7 @@ body {
   display: inline-flexbox;
   flex-direction: column;
   row-gap: 0;
-  color: var(--color-secondary);
+  color: lightgray;
   padding: 1rem;
   transition: all 0.5s ease-in-out;
 }
@@ -33,6 +33,7 @@ a {
 
 .maintitle {
   display: flex;
+  justify-content: center;
   height: 200px;
   width: 100%;
   background-color: var(--color-primary);
@@ -41,11 +42,12 @@ a {
 
 header {
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 header h1 {
   text-align: center;
+  color: black;
+  font-size: 3rem;
 }
 
 section {
@@ -113,25 +115,20 @@ section {
   display: block;
 }
 
-/*home page*/
-.maintitle {
-  text-align: center;
-  padding-bottom: 1rem;
-  color: black;
-  border-radius: 5px;
-}
-.maintitle h1 {
-  margin-bottom: 50px;
-  text-align: center;
+iframe {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
+/*home page*/
 .maintext {
   margin-left: 20%;
   transform: translate(-50% -50%);
   padding-top: 1rem;
 }
 .maintext .icone {
-  margin-left: 15%;
+  margin-left: 18%;
   transform: translate(-50% -50%);
   height: 300px;
   width: 400px;
@@ -224,6 +221,7 @@ section {
 .templates-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  columns: wrap-reverse;
   grid-gap: 2rem;
   margin-top: 3rem;
 }
@@ -311,12 +309,37 @@ section {
 }
 
 /* Projeto*/
+.temp {
+  background-color: lightgray;
+  font-family: "Inter", sans-serif;
+}
+
+.criar-container {
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+.criar-container .left-criar-container {
+  background-color: var(--color-primary);
+  margin-right: 2rem;
+  padding: 2rem;
+  border-radius: 5px;
+}
+.criar-container .right-criar-container-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.criar-container .right-criar-container-img img {
+  width: 90%;
+  height: 80%;
+}
+
 .controls {
   display: flex;
   position: absolute;
-  left: 32%;
-  align-items: center;
-  padding-top: 7%;
+  top: 20%;
+  right: 37%;
   text-align: center;
   color: var(--color-black);
 }
