@@ -15,20 +15,38 @@
         </header>
         <div class="criar-container">
           <div class="left-criar-container">
+            <form action="/action_page.php">
+              <label for="img"><h2 class="inputh2" > Escolha a Imagem</h2></label>
+              <input type="file" id="img" name="img" accept="image/*">
+              <input type="submit">
+            </form>
             <form action="/action_page.php" class="contact-form">
               <div class="input-control-dados i-c-2">
+                <h2 class="inputh2">Contato</h2>
                 <input type="text" size="50" required placeholder="Nome Completo">
                 <input type="email" size="50" required placeholder="E-mail">
                 <input type="number" size="22" required placeholder="Telefone">
                 <input type="text" size="22" required placeholder="Localização">
               </div><!-- closing input-contol-->
               <div class="input-control-formação i-c-2">
+                <h2 class="inputh2">Formação</h2>
+                <input type="text" size="50" required placeholder="Nome do curso">
+                <input type="text" size="50" required placeholder="Universidade">
+                <input type="date" size="22" required placeholder="Período inicio">
+                <input type="date" size="22" required placeholder="Periodo final">
                 <input type="text" size="50" required placeholder="Nome do curso">
                 <input type="text" size="50" required placeholder="Universidade">
                 <input type="date" size="22" required placeholder="Período inicio">
                 <input type="date" size="22" required placeholder="Periodo final">
               </div><!-- closing input-contol-->
               <div class="input-control-experiencia i-c-2">
+                <h2 class="inputh2">Experiência</h2>
+                <input type="text" size="50" required placeholder="Empresa">
+                <input type="text" size="50" required placeholder="Cargo">
+                <input type="text" size="50" required placeholder="Funções">
+                <input type="text" size="50" required placeholder="Localização">
+                <input type="date" required placeholder="Período inicio">
+                <input type="date" required placeholder="Periodo final">
                 <input type="text" size="50" required placeholder="Empresa">
                 <input type="text" size="50" required placeholder="Cargo">
                 <input type="text" size="50" required placeholder="Funções">
@@ -37,16 +55,18 @@
                 <input type="date" required placeholder="Periodo final">
               </div><!-- closing input-contol-->
               <div class="input-control-apresetacao">
-                <textarea class="input-message" cols="50" rows="8" placeholder="Apresentação"></textarea>
+                <h2 class="inputh2">Sobre mim</h2>
+                <textarea class="input-message" cols="50" rows="5" placeholder="Apresentação"></textarea>
               </div>
-              <div class="input-control-image">
-                <input type="image" class="imagem" placeholder="foto">
-              </div>
+              
               <div class="input-control-btn-pronto">
                 <button id="ready">
                   <i class="fa-solid fa-paper-plane-top"></i>
                   <span class="btn-text">Pronto</span>
                 </button>
+                <form>
+                  <input type="button" value="Voltar " onclick="history.back()">
+                 </form>
               </div>
           </div><!-- closing input-contol-->
           </form><!-- closing form-contact-->

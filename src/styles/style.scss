@@ -328,7 +328,7 @@ textarea {
 
 
 
-//template html 
+/* template html */
 .temp{
     background-color: lightgray;
     font-family: 'Inter', sans-serif;
@@ -341,18 +341,34 @@ textarea {
 .left-criar-container{
     background-color: var(--color-primary);
     margin-right: 2rem;
-    padding: 2rem;
+    padding: 1rem;
     border-radius: 5px;
+    box-shadow: 0 3px 15px rgba(0,0,0,.3);
 }
 .right-criar-container-img{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    box-shadow: 0 3px 15px rgba(0,0,0,.3);
         img{
             width: 90%;
             height: 80%;
+          
         }
+    }
+}
+/*inputs*/
+.inputh2{
+    font-size: 1rem;
+    color: black;
+    padding: .5rem;
+}
+button{
+    width: 92%;
+    border-radius: 5px;
+    &:hover{
+        background-color: aquamarine;
     }
 }
 
