@@ -1,12 +1,31 @@
-# Template padrão do site
+Template-do-Site
+O_template_criado_está_disponível_no_site_http://github.com/… _e_é_composto_pelos_seguintes_layouts: 
+Tela_Home
+Tela_do_site
+Tela_de_dicas
+Templates
+Tela_de_sinserção_de_dados
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="4-Metodologia.md"> Metodologia</a>
+A_responsabilidade_segue_o_padrão_do_Bootstrap. (Rever_Linha)
 
-Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
+Página_inicialtela_inicial_![tela_inicial](img/tela_inicial.png)
 
-> **Links Úteis**:
->
-> - [CSS Website Layout (W3Schools)](https://www.w3schools.com/css/css_website_layout.asp)
-> - [Website Page Layouts](http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/website-page-layouts/)
-> - [Perfect Liquid Layout](https://matthewjamestaylor.com/perfect-liquid-layouts)
-> - [How and Why Icons Improve Your Web Design](https://usabilla.com/blog/how-and-why-icons-improve-you-web-design/)
+Tela_de_informe_do_site_![como_funciona_o_site](img/como_funciona_o_site.png)
+
+Neste_modelo,_são_apresentados_os_principais_motivos_que_levaram_à_criação_desta_aplicação_de_currículos_online._Entre_eles,_destacam-se_a_facilidade_de_uso,_a personalização_dos_modelos,_a_eficiência_na_criação_de_um_currículo_atrativo_e_a_disponibilidade_de_diversas_ferramentas_e_recursos_para_auxiliar_na_busca_por_uma vaga_de_emprego.
+
+dicas_![dicas](img/dicas.png)
+
+Nesta_etapa,_são_apresentados_os_erros_mais_frequentes_na_elaboração_de_um_currículo,_acompanhados_de_dicas_para_evitá-los_e_do_melhor_caminho_a_ser_seguido_para a_sua_criação.
+
+Modelos_![templates](img/templates.png)
+
+Neste_espaço,_o_usuário_pode_explorar_diferentes_estilos_de_currículo_e_escolher_aquele_que_melhor-se_adequa_às_suas_experiências,_habilidades_e_objetivos profissionais.
+
+Tela_de_inserção_de_dados_![montagem_de_currículo](img/montagem_de_currículo.png)
+
+Neste_espaço,_é_importante_incluir_todas_as_informações_relevantes_para_a_elaboração_de_um_currículo_completo_e_efetivo,_destacando_as_habilidades,_experiências_e participação_do_candidato_de_forma_clara_e_objetiva.
+
+Projeto_![projeto](img/projeto.png)
+
+Desenvolvimento_turma_3 - Grupo_4_–_Projeto_CVO, PUC_MINAS_2023.
