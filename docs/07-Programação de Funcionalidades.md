@@ -28,7 +28,6 @@ Requisitos atendidos
   - RF-007
   - RF-005
   
-![Menu](img/pagTemplates.png)
 ![Input](img/input.png)
   
 Instruções de acesso
