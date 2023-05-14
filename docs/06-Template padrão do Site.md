@@ -1,30 +1,31 @@
-Template do Site O template criado está disponível no site http://github.com/… e é composto pelos seguintes layouts: 
-Tela  Home
-Tela do site
-Tela de dicas
+Template-do-Site
+O_template_criado_está_disponível_no_site_http://github.com/… _e_é_composto_pelos_seguintes_layouts: 
+Tela_Home
+Tela_do_site
+Tela_de_dicas
 Templates
-Tela de sinserção de dados
+Tela_de_sinserção_de_dados
 
-A responsabilidade segue o padrão do Bootstrap. (Rever Linha)
+A_responsabilidade_segue_o_padrão_do_Bootstrap. (Rever_Linha)
 
-Página inicialtela inicial
+Página_inicialtela_inicial
 
-Tela de informe do site ![como funciona o site](img/como funciona o site.png)
+Tela_de_informe_do_site_![como_funciona_o_site](img/como_funciona_o_site.png)
 
-Neste modelo, são apresentados os principais motivos que levaram à criação desta aplicação de currículos online. Entre eles, destacam-se a facilidade de uso, a personalização dos modelos, a eficiência na criação de um currículo atrativo e a disponibilidade de diversas ferramentas e recursos para auxiliar na busca por uma vaga de emprego.
+Neste_modelo,_são_apresentados_os_principais_motivos_que_levaram_à_criação_desta_aplicação_de_currículos_online._Entre_eles,_destacam-se_a_facilidade_de_uso,_a personalização_dos_modelos,_a_eficiência_na_criação_de_um_currículo_atrativo_e_a_disponibilidade_de_diversas_ferramentas_e_recursos_para_auxiliar_na_busca_por_uma vaga_de_emprego.
 
-dicasdicas
+dicas
 
-Nesta etapa, são apresentados os erros mais frequentes na elaboração de um currículo, acompanhados de dicas para evitá-los e do melhor caminho a ser seguido para a sua criação.
+Nesta_etapa,_são_apresentados_os_erros_mais_frequentes_na_elaboração_de_um_currículo,_acompanhados_de_dicas_para_evitá-los_e_do_melhor_caminho_a_ser_seguido_para a_sua_criação.
 
-Modelosmodelos
+Modelos
 
-Neste espaço, o usuário pode explorar diferentes estilos de currículo e escolher aquele que melhor se adequa às suas experiências, habilidades e objetivos profissionais.
+Neste_espaço,_o_usuário_pode_explorar_diferentes_estilos_de_currículo_e_escolher_aquele_que_melhor-se_adequa_às_suas_experiências,_habilidades_e_objetivos profissionais.
 
-Tela de inserção de dados ![montagem de currículo](img/montagem de currículo.png)
+Tela_de_inserção_de_dados_![montagem_de_currículo](img/montagem_de_currículo.png)
 
-Neste espaço, é importante incluir todas as informações relevantes para a elaboração de um currículo completo e efetivo, destacando as habilidades, experiências e participação do candidato de forma clara e objetiva.
+Neste_espaço,_é_importante_incluir_todas_as_informações_relevantes_para_a_elaboração_de_um_currículo_completo_e_efetivo,_destacando_as_habilidades,_experiências_e participação_do_candidato_de_forma_clara_e_objetiva.
 
-Projetoprojeto
+Projeto
 
-Desenvolvimento turma 3 - Grupo 4 – Projeto CVO, PUC MINAS 2023.
+Desenvolvimento_turma_3 - Grupo_4 – Projeto_CVO, PUC_MINAS_2023.
