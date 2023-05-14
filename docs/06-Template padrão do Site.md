@@ -13,7 +13,7 @@ Tela de informe do site ![como funciona o site](img/como funciona o site.png)
 
 Neste modelo, são apresentados os principais motivos que levaram à criação desta aplicação de currículos online. Entre eles, destacam-se a facilidade de uso, a personalização dos modelos, a eficiência na criação de um currículo atrativo e a disponibilidade de diversas ferramentas e recursos para auxiliar na busca por uma vaga de emprego.
 
-dicasdicas
+dicas ![Dicas](img/Dicas.png)
 
 Nesta etapa, são apresentados os erros mais frequentes na elaboração de um currículo, acompanhados de dicas para evitá-los e do melhor caminho a ser seguido para a sua criação.
 
