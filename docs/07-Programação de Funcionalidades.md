@@ -16,20 +16,20 @@ Artefatos de funcionalidade
   - style.scss
  
 
-!Telas(Dicas.png) 
-!Telas(img/como_funciona_o_site.png)
+![Telas](Dicas.png) 
+![Telas](img/como_funciona_o_site.png)
 
 O menu interativo e funcional (RF-007)
 O menu interativo é fixo em todas as páginas principais, facilitando a navegação entre elas. E na página de criação do CV, existe a opção de voltar e reiniciar o projeto.
 
-!Navegador(pagTemplates.png)
+![Navegador](pagTemplates.png)
 
 Requisitos atendidos
   - RF-007
   - RF-005
   
-!Menu(img/pagTemplates.png)
-!Input(img/input.png)
+![Menu](img/pagTemplates.png)
+![Input](img/input.png)
   
 Instruções de acesso
 3. Faça o download do arquivo do projeto (ZIP) ou clone do projeto no GitHub;
