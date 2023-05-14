@@ -27,6 +27,11 @@ O menu interativo é fixo em todas as páginas principais, facilitando a navega�
 Requisitos atendidos
   - RF-007
   - RF-005
+
+Artefatos de funcionalidade
+  - template.html
+  - template2.html
+  - template3.html
   
 ![Input](img/input.png)
   
