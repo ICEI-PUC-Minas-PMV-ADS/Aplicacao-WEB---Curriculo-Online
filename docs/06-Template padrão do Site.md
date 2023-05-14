@@ -1,4 +1,5 @@
-Template do Site
+# Template do Site
+
 O template criado está disponível no site http://github.com/…  e é composto pelos seguintes layouts:  
 Tela Home
 Tela do site
