@@ -71,17 +71,6 @@ section{
     display: none;
     flex-direction: row;
     transform: translateY(0) scale(1);
-    height: 100%;
-    img{
-        width: 80%;
-        height: 50%;
-        border-radius: 5px;
-    }
-        h2{
-            text-align: center;
-        }
-
-    
 }
 .sec2{
     display: none;
@@ -227,11 +216,11 @@ iframe{
     margin-top: 3rem;
     .templates-items{
         position: relative;
-        border-radius: 15%;
+        border-radius: 10%;
             img{
                 background-color: white;
                 width: 90%;  
-                height: 400px;
+                height: 400%;
                 border-radius: 15px;
                 .img{
                     object-fit: cover;
@@ -336,7 +325,7 @@ textarea {
 }
 .criar-container{
     display: grid;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 80% 20%;
     
 
 
