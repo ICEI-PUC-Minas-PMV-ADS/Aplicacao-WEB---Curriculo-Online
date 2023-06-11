@@ -3,7 +3,7 @@
 Nesta seção são apresentadas as telas desenvolvidas para cada uma das funcionalidades
 do sistema. O respectivo endereço (URL) e outras orientações de acesso são são
 apresentadas na sequência.
-Visualização dõ site e dicas (RF-003 )
+Visualização do site e dicas (RF-003 )
 A tela principal tem uma chamada para o facilidade que o site propõe, em ser simples montar seu CV. A segunda página ,traz uma síntese de como o site funciona. E na página 3 se encontram dicas para facilitar na montagem do CV.
 
 Requisitos atendidos
