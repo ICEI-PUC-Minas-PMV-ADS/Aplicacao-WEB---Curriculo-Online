@@ -43,7 +43,7 @@ Os testes funcionais a serem praticados no site são descritos a seguir.
 | | 3)	Inserir dados.|
 | |4)	Finalizar o CV.|
 |Critérios de Êxito|•	Aplicação é legível e editável e suas funções em qualquer tipo de aparelho.|
-
+ 
 |Caso de teste| CT-04 – Responsividade|
 |-------------|----------------------------------------------------------------|
 |Requisitos Associados| RF-008 A aplicação deve ter a opção de envio do CV diretamente ao e-mail

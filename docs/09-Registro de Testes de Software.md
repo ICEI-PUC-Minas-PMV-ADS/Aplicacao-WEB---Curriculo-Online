@@ -13,7 +13,7 @@
 |-------------|----------------------------------------------------------------|
 |Objetivo do Teste| Pensado especialmente para pessoas que enfrentam dificuldades ao lidar com tarefas ou aplicações online.|
 |Critérios de Êxito|•	O teste teve êxito.|
-
+ 
 |Registro de teste| CT-03 – Responsividade|
 |-------------|----------------------------------------------------------------|
 |Objetivo do Teste| Pensado especialmente para pessoas que utilizam celulares para a maioria das tarefas diárias.|
