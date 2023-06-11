@@ -25,6 +25,12 @@
 |Objetivo do Teste| Acessar a funcionalidade de envio por email|
 |Critérios de Êxito|•	A aplicação não apresentou a funcionalidade de envio por email.|
 
+|Registro de teste| CT-05 – Salvar em formato PDF|
+|-------------|----------------------------------------------------------------|
+|Objetivo do Teste| Salvar o CV em formato PDF|
+|Critérios de Êxito|•	A aplicação não apresentou a funcionalidade de salvar como PDF.|
+
+
 ## Avaliação
 
 A aplicação ainda precisa ser melhor codificada para ser considerado funcional. 
