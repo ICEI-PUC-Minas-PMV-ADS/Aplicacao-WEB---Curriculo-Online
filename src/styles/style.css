@@ -51,7 +51,7 @@ header h1 {
 }
 
 section {
-  min-width: 100vh;
+  min-width: 0;
   width: 100%;
   height: auto;
   position: absolute;
@@ -69,16 +69,8 @@ section {
 .sec1 {
   display: none;
   flex-direction: row;
+  min-height: 100vh;
   transform: translateY(0) scale(1);
-  height: 100%;
-}
-.sec1 img {
-  width: 80%;
-  height: 50%;
-  border-radius: 5px;
-}
-.sec1 h2 {
-  text-align: center;
 }
 
 .sec2 {
@@ -123,18 +115,24 @@ iframe {
 
 /*home page*/
 .maintext {
-  margin-left: 20%;
+  display: flex;
+  justify-content: center;
   transform: translate(-50% -50%);
   padding-top: 1rem;
 }
 .maintext .icone {
-  margin-left: 18%;
   transform: translate(-50% -50%);
   height: 300px;
   width: 400px;
   box-shadow: 0 3px 15px rgba(0, 0, 0, 0.3);
   border-radius: 5px;
   background-color: none;
+}
+
+.mainh2 {
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
 }
 
 .title {
@@ -227,13 +225,13 @@ iframe {
 }
 .templates-container .templates-items {
   position: relative;
-  border-radius: 5%;
+  border-radius: 10%;
 }
 .templates-container .templates-items img {
   background-color: white;
   width: 90%;
-  height: 90%;
-  border-radius: 5px;
+  height: 400%;
+  border-radius: 15px;
 }
 .templates-container .templates-items img .img {
   object-fit: cover;
@@ -246,7 +244,7 @@ iframe {
   position: absolute;
   left: 0;
   top: 0;
-  border-radius: 5px;
+  border-radius: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -313,11 +311,12 @@ iframe {
 .temp {
   background-color: lightgray;
   font-family: "Inter", sans-serif;
+  float: left;
 }
 
 .criar-container {
   display: grid;
-  grid-template-columns: 55% 35%;
+  grid-template-columns: 55% 25%;
 }
 .criar-container .left-criar-container {
   background-color: var(--color-primary);
@@ -339,30 +338,31 @@ iframe {
 }
 
 /*inputs*/
+.inputh2 {
+  font-size: 1rem;
+  color: black;
+  padding: 0.5rem;
+}
 
-.form .title {
-  margin-bottom: 0;
-}
-.form .row:nth-child(even) {
-  padding-bottom: 2px;
-  margin-bottom: 3px;
-  border-bottom: #ccc thin solid;
-}
 button {
+  margin-bottom: 5%;
   width: 92%;
   border-radius: 5px;
 }
 button:hover {
   background-color: aquamarine;
 }
+.buttons-pdf-email{
+  display: flex;
+  width: 92%;
+  border-radius: 5px;
+}
 
-/*Controls*/
 .controls {
   display: flex;
   position: absolute;
   top: 20%;
-  right: 40%;
-  left: 37%;
+  right: 37%;
   text-align: center;
   color: var(--color-black);
 }
@@ -410,26 +410,66 @@ button:hover {
   transform: translatey(-50%);
   transition: all 0.5s ease-in;
 }
+.controls ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+.controls #hamburguer-icon {
+  margin: auto 0;
+  display: none;
+  cursor: pointer;
+}
+.controls #hamburguer-icon {
+  width: 35px;
+  height: 3px;
+  background-color: red;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+.controls .open .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+  transform: rotate(-45deg) translate(-6px, 6px);
+}
+.controls .open .bar2 {
+  opacity: 0;
+}
+.controls .open .bar3 {
+  -webkit-transform: rotate(45deg) translate(-6px, 8px);
+  transform: rotate(45deg) translate(-6px, 8px);
+}
+.controls .open .mobile-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+mobile-menu {
+  display: flex;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 100%;
+}
 
-@media (max-width: 800px) {
-  .controls {
-    flex-direction: column;
+@media only screen and (max-width: 600px) {
+  .controls .html-menu {
+    display: flex;  
+    flex-direction: column;  
   }
 }
 
 @media only screen and (max-device-width:2560px) {
   .controls {
+    .menu {
+      width: 100%;
+    }
+
+    @media only screen and (max-device-width:1080px) {
       .menu {
-          width: 100%;
+        width: 700;
       }
 
-      @media only screen and (max-device-width:1080px) {
-        .controls {
-          .menu {
-              width: 700;
-          }
-
-      }
     }
   }
 }

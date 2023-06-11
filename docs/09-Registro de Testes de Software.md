@@ -18,8 +18,9 @@
 |-------------|----------------------------------------------------------------|
 |Objetivo do Teste| Pensado especialmente para pessoas que utilizam celulares para a maioria das tarefas diárias.|
 |Critérios de Êxito|•	A aplicação mostra alguns pontos falhos, porém tem um bom nível de responsividade.|
+![Responsividade](img/responsividade2.png)
 
-|Registro de teste| CT-04 – Responsividade|
+|Registro de teste| CT-04 – Envio por email|
 |-------------|----------------------------------------------------------------|
 |Objetivo do Teste| Acessar a funcionalidade de envio por email|
 |Critérios de Êxito|•	A aplicação não apresentou a funcionalidade de envio por email.|
