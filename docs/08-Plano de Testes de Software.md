@@ -54,3 +54,13 @@ Os testes funcionais a serem praticados no site são descritos a seguir.
 | |4)	Finalizar o CV.|
 |Critérios de Êxito|•	Aplicação deve enviar o currículo pronto para o email designado|
 
+|Caso de teste| CT-05 – Salvar CV em formato PDF
+|-------------|----------------------------------------------------------------|
+|Requisitos Associados| RF-008 A aplicação deve ter a opção de salvar o CV em formato PDF
+|Objetivo do Teste| Salvar o CV em formato PDF
+|Passos|1)	Acessar Home-Page.|
+| |2)	Selecionar abas Site e Dicas|
+| |3)	Inserir dados.|
+| |4)	Finalizar o CV.|
+|Critérios de Êxito|•	Aplicação deve salvar o CV em formato PDF|
+
