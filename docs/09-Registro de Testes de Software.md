@@ -2,11 +2,28 @@
 
 <span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>, <a href="8-Plano de Testes de Software.md"> Plano de Testes de Software</a>
 
-Relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado em um plano de testes pré-definido.
+9. Registros de Teste de Software
+
+| Registro de Teste| CT-01 - Montagem de CV| 
+|--------------|-----------------------|
+|Objetivo de teste|Conferir o acesso e a qualidade das informações disponibilizadas para a montagem de um CV.|
+|Critério de êxito|•	O teste teve êxito|
+
+|Registro de teste| CT-02 – Navegabilidade|
+|-------------|----------------------------------------------------------------|
+|Objetivo do Teste| Pensado especialmente para pessoas que enfrentam dificuldades ao lidar com tarefas ou aplicações online.|
+|Critérios de Êxito|•	O teste teve êxito.|
+
+|Registro de teste| CT-03 – Responsividade|
+|-------------|----------------------------------------------------------------|
+|Objetivo do Teste| Pensado especialmente para pessoas que utilizam celulares para a maioria das tarefas diárias.|
+|Critérios de Êxito|•	A aplicação mostra alguns pontos falhos, porém tem um bom nível de responsividade.|
+
+|Registro de teste| CT-04 – Responsividade|
+|-------------|----------------------------------------------------------------|
+|Objetivo do Teste| Acessar a funcionalidade de envio por email|
+|Critérios de Êxito|•	A aplicação não apresentou a funcionalidade de envio por email.|
 
 ## Avaliação
 
-Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
-
-> **Links Úteis**:
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
+A aplicação ainda precisa ser melhor codificada para ser considerado funcional. 
