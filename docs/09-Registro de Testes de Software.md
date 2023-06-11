@@ -16,7 +16,7 @@
  
 |Registro de teste| CT-03 – Responsividade|
 |-------------|----------------------------------------------------------------|
-|Objetivo do Teste| Pensado especialmente para pessoas que utilizam celulares para a maioria das tarefas diárias.|
+|Objetivo do Teste| Pensado especialmente para pessoas que utilizam celulares ou dispositivos móveis para a maioria das tarefas diárias.|
 |Critérios de Êxito|•	A aplicação mostra alguns pontos falhos, porém tem um bom nível de responsividade.|
 
 |Registro de teste| CT-04 – Responsividade|
