@@ -29,7 +29,7 @@
 |-------------|----------------------------------------------------------------|
 |Objetivo do Teste| Salvar o CV em formato PDF|
 |Critérios de Êxito|•	A aplicação não apresentou a funcionalidade de salvar como PDF.|
-
+![Responsividade](img/responsividade3.png)
 
 ## Avaliação
 
