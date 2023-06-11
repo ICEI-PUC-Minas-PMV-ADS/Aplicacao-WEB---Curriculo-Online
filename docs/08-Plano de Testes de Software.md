@@ -36,8 +36,8 @@ Os testes funcionais a serem praticados no site são descritos a seguir.
 
 |Caso de teste| CT-03 – Responsividade|
 |-------------|----------------------------------------------------------------|
-|Requisitos Associados| RNF-009 A aplicação deve ser responsiva, para celular e tabletfácil navegação, para facilitar correções, caso seja necessário.|
-|Objetivo do Teste| Pensado especialmente para pessoas que utilizam celulares para a maioria das tarefas diárias.|
+|Requisitos Associados| RNF-009 A aplicação deve ser responsiva, para celulares e dispositivos móveis com fácil navegação, para facilitar correções caso seja necessário.|
+|Objetivo do Teste| Pensado especialmente para pessoas que utilizam dispositivos móveis para a maioria das tarefas diárias.|
 |Passos|1)	Acessar Home-Page.|
 |  2)	Selecionar abas Site e Dicas|
 |  3)	Inserir dados.|
