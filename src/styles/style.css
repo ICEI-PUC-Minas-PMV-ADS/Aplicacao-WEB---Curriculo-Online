@@ -316,7 +316,7 @@ iframe {
 
 .criar-container {
   display: grid;
-  grid-template-columns: 55% 25%;
+  grid-template-columns: 50% 55%;
 }
 .criar-container .left-criar-container {
   background-color: var(--color-primary);
@@ -325,16 +325,30 @@ iframe {
   border-radius: 5px;
   box-shadow: 0 3px 15px rgba(0, 0, 0, 0.3);
 }
-.criar-container .right-criar-container-img {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.3);
+
+.criar-container .right-criar-container{
+  background-color: white;
 }
-.criar-container .right-criar-container-img img {
-  width: 90%;
-  height: 80%;
+
+.criar-container .right-criar-container table{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 20px;
+}
+.criar-container .right-criar-container .h2-titulos{
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  background-color: darkgrey;
+  color: white ;
+}
+.criar-container .right-criar-container span{
+  padding: 5px;
+}
+.criar-container .right-criar-container .tituloCurriculo {
+  display: flex;
+  justify-content: center;
 }
 
 /*inputs*/
@@ -345,17 +359,11 @@ iframe {
 }
 
 button {
-  margin-bottom: 5%;
   width: 92%;
   border-radius: 5px;
 }
 button:hover {
   background-color: aquamarine;
-}
-.buttons-pdf-email{
-  display: flex;
-  width: 92%;
-  border-radius: 5px;
 }
 
 .controls {
@@ -444,8 +452,8 @@ button:hover {
   align-items: center;
   justify-content: flex-start;
 }
-mobile-menu {
-  display: flex;
+.controls .mobile-menu {
+  display: none;
   position: absolute;
   top: 50px;
   left: 0;
@@ -454,22 +462,9 @@ mobile-menu {
 
 @media only screen and (max-width: 600px) {
   .controls .html-menu {
-    display: flex;  
-    flex-direction: column;  
+    display: none;
   }
-}
-
-@media only screen and (max-device-width:2560px) {
-  .controls {
-    .menu {
-      width: 100%;
-    }
-
-    @media only screen and (max-device-width:1080px) {
-      .menu {
-        width: 700;
-      }
-
-    }
+  nav #hamburguer-icon {
+    display: flex;
   }
 }

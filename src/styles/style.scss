@@ -342,19 +342,19 @@ textarea {
     border-radius: 5px;
     box-shadow: 0 3px 15px rgba(0,0,0,.3);
 }
-.right-criar-container-img{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 3px 15px rgba(0,0,0,.3);
-        img{
-            width: 90%;
-            height: 80%;
-          
-        }
+.right-criar-container{
+    .tituloCurriculo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contatoPDF{
+        display: flex;
+        margin-right: 0;
     }
 }
+}
+
 /*inputs*/
 .inputh2{
     font-size: 1rem;
