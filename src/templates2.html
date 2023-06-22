@@ -11,108 +11,38 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
     <script src="https://html2canvas.hertzen.com/dist/html2canvas.js"></script>
   
-    <SCRIPT>
-
-  
-
-      function visualizar(){
-
-          localStorage.setItem("nome", document.getElementById('nome').value);
-          localStorage.setItem("local", document.getElementById('local').value);
-          localStorage.setItem("email", document.getElementById('email').value);
-          localStorage.setItem("sobreMim", document.getElementById('sobreMim').value);
-
-          localStorage.setItem("local1", document.getElementById('localFormacao1').value);
-          localStorage.setItem("curso1", document.getElementById('curso1').value);
-          localStorage.setItem("inicioFormacao1", document.getElementById('inicioFormacao1').value);
-          localStorage.setItem("anoFormacao1", document.getElementById('anoFormacao1').value);
-
-          localStorage.setItem("local2", document.getElementById('localFormacao2').value);
-          localStorage.setItem("curso2", document.getElementById('curso2').value);
-          localStorage.setItem("inicioFormacao2", document.getElementById('inicioFormacao2').value);
-          localStorage.setItem("anoFormacao2", document.getElementById('anoFormacao2').value);
-
-          localStorage.setItem("localExperiencia1", document.getElementById('localExperiencia1').value);
-          localStorage.setItem("funcaoExperiencia1", document.getElementById('funcaoExperiencia1').value);
-          localStorage.setItem("inicioExperiencia1", document.getElementById('inicioExperiencia1').value);
-          localStorage.setItem("anoExperiencia1", document.getElementById('anoExperiencia1').value);
-
-          localStorage.setItem("localExperiencia2", document.getElementById('localExperiencia2').value);
-          localStorage.setItem("funcaoExperiencia2", document.getElementById('funcaoExperiencia2').value);
-          localStorage.setItem("inicioExperiencia2", document.getElementById('inicioExperiencia2').value);
-          localStorage.setItem("anoExperiencia2", document.getElementById('anoExperiencia2').value);
-
-          localStorage.setItem("localExperiencia3", document.getElementById('localExperiencia3').value);
-          localStorage.setItem("funcaoExperiencia3", document.getElementById('funcaoExperiencia3').value);
-          localStorage.setItem("inicioExperiencia3", document.getElementById('inicioExperiencia3').value);
-          localStorage.setItem("anoExperiencia3", document.getElementById('anoExperiencia3').value);
-  
-          //preencherHTML()
-          //gerarPDF();
-  
+    <script>
+      function setDinamico(campo) {
+        localStorage.setItem(campo, document.getElementById(campo).value);
+        preencheDinamico(campo);
       }
   
-  
-      function preencherHTML(){
-
-          document.getElementById('template_nome').innerHTML =  localStorage.getItem('nome');
-          document.getElementById('template_local').innerHTML =  localStorage.getItem('local');
-          document.getElementById('template_email').innerHTML =  localStorage.getItem('email');
-          document.getElementById('template_sobreMim').innerHTML =  localStorage.getItem('sobreMim');
-
-          document.getElementById('template_localFormacao1').innerHTML =  localStorage.getItem('localFormacao1');
-          document.getElementById('template_curso1').innerHTML =  localStorage.getItem('curso1');
-          document.getElementById('template_inicioFormacao1').innerHTML =  localStorage.getItem('inicioFormacao1');
-          document.getElementById('template_anoFormacao1').innerHTML =  localStorage.getItem('anoFormacao1');
-
-          document.getElementById('template_localFormacao2').innerHTML =  localStorage.getItem('localFormacao2');
-          document.getElementById('template_curso2').innerHTML =  localStorage.getItem('curso2');
-          document.getElementById('template_inicioFormacao2').innerHTML =  localStorage.getItem('inicioFormacao2');
-          document.getElementById('template_anoFormacao2').innerHTML =  localStorage.getItem('anoFormacao2');
-        
-          document.getElementById('template_localExperiencia1').innerHTML =  localStorage.getItem('localExperiencia1');
-          document.getElementById('template_funcaoExperiencia1').innerHTML =  localStorage.getItem('funcaoExperiencia1');
-          document.getElementById('template_inicioExperiencia1').innerHTML =  localStorage.getItem('inicioExperiencia1');
-          document.getElementById('template_anoExperiencia1').innerHTML =  localStorage.getItem('anoExperiencia1');
-
-          document.getElementById('template_localExperiencia2').innerHTML =  localStorage.getItem('localExperiencia2');
-          document.getElementById('template_funcaoExperiencia2').innerHTML =  localStorage.getItem('funcaoExperiencia2');
-          document.getElementById('template_inicioExperiencia2').innerHTML =  localStorage.getItem('inicioExperiencia2');
-          document.getElementById('template_anoExperiencia2').innerHTML =  localStorage.getItem('anoExperiencia2');
-
-          document.getElementById('template_localExperiencia3').innerHTML =  localStorage.getItem('localExperiencia3');
-          document.getElementById('template_funcaoExperiencia3').innerHTML =  localStorage.getItem('funcaoExperiencia3');
-          document.getElementById('template_inicioExperiencia3').innerHTML =  localStorage.getItem('inicioExperiencia3');
-          document.getElementById('template_anoExperiencia3').innerHTML =  localStorage.getItem('anoExperiencia3');
-
+      function preencheDinamico(campo) {
+        document.getElementById('template_'+campo).innerHTML =  localStorage.getItem(campo);
       }
-  
   
       function gerarPDF() {
-  
           window.jsPDF = window.jspdf.jsPDF;
-  
+          
           // Obter o conteúdo HTML que deseja converter em PDF
           var elemento = document.getElementById('template');
-       
-  
+          
           // Criar um novo documento PDF
           var doc = new jsPDF();
-  
-  
+    
+    
           doc.html(elemento, {
-              callback: function(doc) {
-                  // Save the PDF
-                  doc.save('curriculo.pdf');
-              },
-              x: 15,
-              y: 15,
-              width: 170, //target width in the PDF document
-              windowWidth: 650 //window width in CSS pixels
+            callback: function(doc) {
+                // Save the PDF
+                doc.save('curriculo.pdf');
+            },
+            x: 15,
+            y: 15,
+            width: 170, //target width in the PDF document
+            windowWidth: 650 //window width in CSS pixels
           });
-  
-      }
-  </SCRIPT>
+        }
+    </script>
 
   </head>
 <body>
@@ -130,9 +60,9 @@
                       </div>
                   </div>                  
                   <div class="row">
-                      <div class="col-sm-3 form-group"><label>Nome</label><input type="text" id="nome"  class="form-control" /></div>
-                      <div  class="col-sm-3 form-group"><label>Local</label><input type="text" id="local" class="form-control" /></div>
-                      <div  class="col-sm-3 form-group"><label>Email</label><input type="email" id="email" class="form-control" /></div>
+                      <div class="col-sm-3 form-group"><label>Nome</label><input type="text" id="nome" onchange="setDinamico(id);" class="form-control" /></div>
+                      <div  class="col-sm-3 form-group"><label>Local</label><input type="text" id="local" onchange="setDinamico(id);" class="form-control" /></div>
+                      <div  class="col-sm-3 form-group"><label>Email</label><input type="email" id="email" onchange="setDinamico(id);" class="form-control" /></div>
                   </div>
                   <div class="row hidden-print">
                       <div class="col-sm-12 form-group"><label>Sobre mim</label><textarea type="text" id="sobreMim" class="form-control"></textarea></div>
@@ -143,16 +73,16 @@
                       </div>
                   </div>
                   <div class="row">
-                      <div class="col-sm-3 form-group"><label>Local</label><input type="text" id="localFormacao1" class="form-control" /></div>
-                      <div class="col-sm-3 form-group"><label>Curso</label><input type="text" id="curso1" class="form-control" /></div>
-                      <div class="col-sm-3 form-group"><label>Ano de início</label><input type="text" id="inicioFormacao1" class="form-control" /></div>
-                      <div class="col-sm-3 form-group"><label>Ano de término</label><input type="text" id="anoFormacao1" class="form-control" /></div>
+                      <div class="col-sm-3 form-group"><label>Local</label><input type="text" id="localFormacao1" onchange="setDinamico(id);" class="form-control" /></div>
+                      <div class="col-sm-3 form-group"><label>Curso</label><input type="text" id="curso1" onchange="setDinamico(id);" class="form-control" /></div>
+                      <div class="col-sm-3 form-group"><label>Ano de início</label><input type="text" id="inicioFormacao1" onchange="setDinamico(id);" class="form-control" /></div>
+                      <div class="col-sm-3 form-group"><label>Ano de término</label><input type="text" id="anoFormacao1" onchange="setDinamico(id);" class="form-control" /></div>
                   </div>
                   <div class="row">
-                    <div class="col-sm-3 form-group"><label>Local</label><input type="text" id="localFormacao2" class="form-control" /></div>
-                      <div class="col-sm-3 form-group"><label>Curso</label><input type="text" id="curso2" class="form-control" /></div>
-                      <div class="col-sm-3 form-group"><label>Ano de início</label><input type="text" id="inicioFormacao2" class="form-control" /></div>
-                      <div class="col-sm-3 form-group"><label>Ano de término</label><input type="text" id="anoFormacao2" class="form-control" /></div>
+                    <div class="col-sm-3 form-group"><label>Local</label><input type="text" id="localFormacao2" onchange="setDinamico(id);" class="form-control" /></div>
+                      <div class="col-sm-3 form-group"><label>Curso</label><input type="text" id="curso2" onchange="setDinamico(id);" class="form-control" /></div>
+                      <div class="col-sm-3 form-group"><label>Ano de início</label><input type="text" id="inicioFormacao2" onchange="setDinamico(id);" class="form-control" /></div>
+                      <div class="col-sm-3 form-group"><label>Ano de término</label><input type="text" id="anoFormacao2" onchange="setDinamico(id);" class="form-control" /></div>
                 </div>
                 <div class="row title">
                   <div class="col-sm-12">
@@ -160,31 +90,31 @@
                   </div>
               </div>
               <div class="row">
-                  <div class="col-sm-3 form-group"><label>Local</label><input type="text" id="localExperiencia1" class="form-control" /></div>
-                  <div class="col-sm-3 form-group"><label>Função</label><input type="text" id="funcaoExperiencia1" class="form-control" /></div>
-                  <div class="col-sm-3 form-group"><label>Ano de início</label><input type="text" id="inicioExperiencia1" class="form-control" /></div>
-                  <div class="col-sm-3 form-group"><label>Ano de término</label><input type="text" id="anoExperiencia1" class="form-control" /></div>
+                  <div class="col-sm-3 form-group"><label>Local</label><input type="text" id="localExperiencia1" onchange="setDinamico(id);" class="form-control" /></div>
+                  <div class="col-sm-3 form-group"><label>Função</label><input type="text" id="funcaoExperiencia1" onchange="setDinamico(id);" class="form-control" /></div>
+                  <div class="col-sm-3 form-group"><label>Ano de início</label><input type="text" id="inicioExperiencia1" onchange="setDinamico(id);" class="form-control" /></div>
+                  <div class="col-sm-3 form-group"><label>Ano de término</label><input type="text" id="anoExperiencia1" onchange="setDinamico(id);" class="form-control" /></div>
               </div>
               <div class="row">
-                <div class="col-sm-3 form-group"><label>Local</label><input type="text" id="localExperiencia2" class="form-control" /></div>
-                  <div class="col-sm-3 form-group"><label>Função</label><input type="text" id="funcaoExperiencia2" class="form-control" /></div>
-                  <div class="col-sm-3 form-group"><label>Ano de início</label><input type="text" id="inicioExperiencia2" class="form-control" /></div>
-                  <div class="col-sm-3 form-group"><label>Ano de término</label><input type="text" id="anoExperiencia2" class="form-control" /></div>
+                <div class="col-sm-3 form-group"><label>Local</label><input type="text" id="localExperiencia2" onchange="setDinamico(id);" class="form-control" /></div>
+                  <div class="col-sm-3 form-group"><label>Função</label><input type="text" id="funcaoExperiencia2" onchange="setDinamico(id);" class="form-control" /></div>
+                  <div class="col-sm-3 form-group"><label>Ano de início</label><input type="text" id="inicioExperiencia2" onchange="setDinamico(id);" class="form-control" /></div>
+                  <div class="col-sm-3 form-group"><label>Ano de término</label><input type="text" id="anoExperiencia2" onchange="setDinamico(id);" class="form-control" /></div>
             </div>
             <div class="row">
-              <div class="col-sm-3 form-group"><label>Local</label><input type="text" id="localExperiencia3" class="form-control" /></div>
-                  <div class="col-sm-3 form-group"><label>Função</label><input type="text" id="funcaoExperiencia3" class="form-control" /></div>
-                  <div class="col-sm-3 form-group"><label>Ano de início</label><input type="text" id="inicioExperiencia3" class="form-control" /></div>
-                  <div class="col-sm-3 form-group"><label>Ano de término</label><input type="text" id="anoExperiencia3" class="form-control" /></div>
+              <div class="col-sm-3 form-group"><label>Local</label><input type="text" id="localExperiencia3" onchange="setDinamico(id);" class="form-control" /></div>
+                  <div class="col-sm-3 form-group"><label>Função</label><input type="text" id="funcaoExperiencia3" onchange="setDinamico(id);" class="form-control" /></div>
+                  <div class="col-sm-3 form-group"><label>Ano de início</label><input type="text" id="inicioExperiencia3" onchange="setDinamico(id);" class="form-control" /></div>
+                  <div class="col-sm-3 form-group"><label>Ano de término</label><input type="text" id="anoExperiencia3" onchange="setDinamico(id);" class="form-control" /></div>
           </div>
               </div>
           </div>
                 
-                 <form>
-                  <a href="javascript:visualizar()">Visualizar</a>
-                  <a href="javascript:preencherHTML()">Preencher</a>
-                  <a href="javascript:gerarPDF()">PDF</a>
-                </form>
+          <div class="d-flex justify-content-center mt-3">
+            <span class="d-flex justify-content-center  w-25" style="">
+              <a class="text-decoration-none p-3" style="cursor: pointer; background-color: white;border-radius: 9px;color: var(--color-black)" href="javascript:gerarPDF()">Gerar PDF</a>
+            </span>
+          </div>
           </div>
           <div id="template" class="right-criar-container">
             <div class="tituloCurriculo">
