@@ -45,7 +45,7 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 
 # Hospedagem
 
-* <a href="src/">Site</a> 
+* <a href="https://icei-puc-minas-pmv-ads.github.io/Aplicacao-WEB---Curriculo-Online/src/">Site</a> 
 
 # Armazenamento do Código-Fonte
 
