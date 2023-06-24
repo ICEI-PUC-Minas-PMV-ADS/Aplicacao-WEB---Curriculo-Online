@@ -28,7 +28,7 @@
 |Registro de teste| CT-05 – Salvar em formato PDF|
 |-------------|----------------------------------------------------------------|
 |Objetivo do Teste| Salvar o CV em formato PDF|
-|Critérios de Êxito|•	A aplicação não apresentou a funcionalidade de salvar como PDF.|
+|Critérios de Êxito|•	A aplicação apresentou a funcionalidade de salvar como PDF.|
 ![Responsividade](img/responsividade3.png)
 
 ## Avaliação
