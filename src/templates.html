@@ -21,27 +21,50 @@
       document.getElementById('template_'+campo).innerHTML =  localStorage.getItem(campo);
     }
 
-    function gerarPDF() {
-        window.jsPDF = window.jspdf.jsPDF;
-        
-        // Obter o conteúdo HTML que deseja converter em PDF
-        var elemento = document.getElementById('template');
-        
-        // Criar um novo documento PDF
-        var doc = new jsPDF();
-  
-  
-        doc.html(elemento, {
-          callback: function(doc) {
-              // Save the PDF
-              doc.save('curriculo.pdf');
-          },
-          x: 15,
-          y: 15,
-          width: 170, //target width in the PDF document
-          windowWidth: 650 //window width in CSS pixels
-        });
-      }
+
+function gerarPDF() {
+  window.jsPDF = window.jspdf.jsPDF;
+
+  // Obter o conteúdo HTML que deseja converter em PDF
+  var elemento = document.getElementById('template');
+
+  // Criar um novo documento PDF
+  var doc = new jsPDF();
+
+  // Definir opções para renderizar a imagem de plano de fundo
+  var options = {
+    callback: function(doc) {
+      // Save the PDF
+      doc.save('curriculo.pdf');
+    },
+    x: 15,
+    y: 15,
+    width: 170, // target width in the PDF document
+    windowWidth: 650, // window width in CSS pixels
+  };
+
+  // Modificar o estilo CSS dos elementos <h1> e <h2> para centralizá-los e adicionar o background color
+  var h1Element = elemento.querySelector('h1');
+  if (h1Element) {
+    h1Element.style.color = 'white';
+    h1Element.style.textAlign = 'center';
+    h1Element.style.backgroundColor = 'lightgrey';
+  }
+
+  var h2Elements = elemento.querySelectorAll('h2');
+  if (h2Elements.length > 0) {
+    h2Elements.forEach(function(h2Element) {
+      h2Element.style.color = 'white';
+      h2Element.style.textAlign = 'center';
+      h2Element.style.backgroundColor = 'lightgrey';
+    });
+  }
+
+  doc.html(elemento, options);
+}
+
+
+
   </script>
 
   </head>
@@ -157,7 +180,10 @@
         </div>
         
         <div class="d-flex justify-content-center mt-3">
-          <span class="d-flex justify-content-center  w-25" style="">
+          <span class="d-flex justify-content-center  w-25" >
+            <a class="text-decoration-none p-3" style="cursor: pointer; background-color: white;border-radius: 5px;color: var(--color-black)" href="index.html">Voltar</a>
+          </span>
+          <span class="d-flex justify-content-center  w-25">
             <a class="text-decoration-none p-3" style="cursor: pointer; background-color: white;border-radius: 9px;color: var(--color-black)" href="javascript:gerarPDF()">Gerar PDF</a>
           </span>
         </div>
@@ -171,7 +197,7 @@
         </tr>
         </div>
         
-            <tr><th colspan="2" id="template_tituloContato"><span class="h2-titulos">Contato</span></th></tr>
+            <tr><th colspan="2" id="template_tituloContato"><h2><span class="h2-titulos">Contato</span></h2></th></tr>
         
         <table>
             <tr><td>Nome:</td><td> <span id="template_nome"></span> </td>
@@ -180,7 +206,7 @@
             <tr><td>Sobre Mim:</td><td> <span id="template_sobreMim"></span> </td>
         </table>  
 
-                <tr><th colspan="2" id="template_tituloFormacao"><span class="h2-titulos">Formação</span></th></tr>
+                <tr><th colspan="2" id="template_tituloFormacao"><h2><span class="h2-titulos">Formação</span></h2></th></tr>
         <table>
             <tr><td>Local:</td><td> <span id="template_localFormacao1"></span> </td>
             <tr><td>Curso:</td><td> <span id="template_curso1"></span> </td>
@@ -192,7 +218,7 @@
             <tr><td>Ano de início:</td><td> <span id="template_inicioFormacao2"></span> </td>
             <tr><td>Ano conclusão:</td><td> <span id="template_anoFormacao2"></span> </td>
         </table>
-                <tr><th colspan="2" id="template_tituloExperiencia"><span class="h2-titulos">Experiência</span></th></tr>
+                <tr><th colspan="2" id="template_tituloExperiencia"><h2><span class="h2-titulos">Experiência</span></h2></th></tr>
         <table>             
             <tr><td>Local:</td><td> <span id="template_localExperiencia1"></span> </td>
             <tr><td>Função:</td><td> <span id="template_funcaoExperiencia1"></span> </td>
